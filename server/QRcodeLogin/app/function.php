@@ -34,7 +34,7 @@ function checkSource($source){
 	}
 	return false;
 }
-//取记录  返回  1 登录成功  10 source有误  11 此source已使用过  21 无此user(暂无此项)
+//检查登录  返回  1 登录成功  10 source有误  11 此source已使用过  21 无此user(暂无此项)
 function checkSource4Login($source, $user){
 	$collection = getDBCollection(conf('mongo.collection'));
 	$sou = $collection->findone(array('_id' => $source));
