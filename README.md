@@ -13,3 +13,4 @@ web端的配置详见app/conf.php，必须配置mongodb，图片存储路径需�
 
 客户端目前只支持ios，二维码识别使用zBar，需要配置真机测试才能使用摄像头扫描功能
 (如果使用其他客户端，可以通过访问这个url实现登录：http://yourhost/client_login.php?source=xxxxx&&user=张三)
+
